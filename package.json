@@ -1,0 +1,33 @@
+{
+  "name": "picpay.js",
+  "version": "0.0.0",
+  "description": "This is a library of the picpay API",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunooomelo/picpay-js.git"
+  },
+  "author": "Bruno Melo <bruno94@outlook.com> (https://brunooomelo.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunooomelo/picpay-js/issues"
+  },
+  "homepage": "https://github.com/brunooomelo/picpay-js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "babel-plugin-ramda": "^2.0.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.9.0",
+    "ramda": "^0.26.1",
+    "webpack": "^4.41.2"
+  }
+}
