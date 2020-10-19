@@ -1,10 +1,20 @@
 {
-  "name": "picpay.js",
-  "version": "0.0.0",
+  "name": "picpay-js",
+  "version": "1.0.0",
   "description": "This is a library of the picpay API",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
+  "keywords": [
+    "picpay",
+    "api",
+    "ecommerce"
+  ],
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "rimraf dist && babel lib -d dist",
+    "prepublish": "yarn build"
   },
   "repository": {
     "type": "git",
@@ -26,6 +36,7 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "jest": "^24.9.0",
+    "rimraf": "^3.0.2",
     "webpack": "^4.41.2"
   },
   "dependencies": {
